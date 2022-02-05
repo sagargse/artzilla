@@ -1,7 +1,6 @@
 .grid-all-container{
     display: grid;
     height: 100vh;
-    grid-gap: 0.5rem;
     grid-template-columns: 1fr;
     grid-template-areas: 
     "header"

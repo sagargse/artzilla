@@ -31,4 +31,13 @@ body{
     font-family: 'Roboto', sans-serif;
     /* color:rgba(216, 112, 147, 0.781); */
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
 
+main{
+    padding: 2rem;
+}

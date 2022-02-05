@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,54 +9,61 @@
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
+
 <body>
-    <nav class="nav-bar">
-    <div class="nav-bar-container">
-        <div class="nav-left-logo">
+    <!-- navbar -->
+    <nav class="nav">
+        <a href="/main.html" class="logo">
             <h1>U&I Designer</h1>
+        </a>
+        <div class="nav-social-icons">
+            <a class="social-icon"><i class="fa fa-github"></i></a>
+            <a class="social-icon"><i class="fa fa-twitter"></i></a>
+            <a class="social-icon"><i class="fa fa-linkedin"></i></a>
         </div>
-        <div class="nav-right-logo">
-            <ul class="nav-logo-list">
-                <li class="list-logo"><i class="fa fa-github"></i></li>
-                <li class="list-logo"><i class="fa fa-twitter"></i></li>
-                <li class="list-logo"><i class="fa fa-linkedin"></i></li>
-            </ul>
-        </div>
-    </div>
     </nav>
-    <div class="content-container">
-        <div class="left-content-container">
-        <h1>Build Your UI Faster</h1>
-        <p>Copy and paste the components at one click. It is user-friendly and customizable. Spend less time in designing and concentrate more on logic without hustling on UI.</p>
-        <div class="btn-content-container">
-            <button class="btn-content-container-installation"><a href="#installation">Installation</a></button>
-            <button class="btn-content-container-documentation">Documentation</button>
-        </div>
-        </div>
-        <div class="right-content-container">
-            <img src="right-img.svg" alt="">
-        </div>
-    </div>
-    <div class="content-container" id="installation">
-        <div class="left-content-container">
-            <h1>Installation</h1>
-            <p>Copy and paste the code in the head tag of your html document. So that you can style your components by just adding class names to your html elements.</p>
-            <p>To know about the styled components, their variations, read the documentaion</p>
-            <div class="btn-content-container">
-            <button class="btn-content-container-documentation">Documentation</button>
+
+    <!-- main content -->
+    <main>
+        <div class="content-container">
+            <div class="left-content-container">
+                <h1>Build Your UI Faster</h1>
+                <p>Copy and paste the components at one click. It is user-friendly and customizable. Spend less time in
+                    designing and concentrate more on logic without hustling on UI.</p>
+                <div class="btn-content-container">
+                    <button class="btn-content-container-installation"><a href="#installation">Installation</a></button>
+                    <button class="btn-content-container-documentation" onclick="window.location.href='/documentation.html'">Documentation</button>
+                </div>
+            </div>
+            <div class="right-content-container">
+                <img src="right-img.svg" alt="">
             </div>
         </div>
-        <div class="right-content-container">
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%280%2C255%2C255%2C1%29&t=paraiso-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false"
-                style="width: 1200px; height: 200px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
+        <div class="content-container" id="installation">
+            <div class="left-content-container">
+                <h1>Installation</h1>
+                <p>Copy and paste the code in the head tag of your html document. So that you can style your components
+                    by
+                    just adding class names to your html elements.</p>
+                <p>To know about the styled components, their variations, read the documentaion</p>
+                <div class="btn-content-container">
+                    <button class="btn-content-container-documentation" onclick="window.location.href='/documentation.html'">Documentation</button>
+                </div>
+            </div>
+            <div class="right-content-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%280%2C255%2C255%2C1%29&t=paraiso-dark&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false"
+                    style="width: 1200px; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
         </div>
-    </div>
-    <div class="footer-container">
+    </main>
+
+    <!-- footer -->
+    <footer class="footer-container">
         <div class="first-line-footer">
-        <h2>Made with love by Sagar Raj</h2>
+            <h2>Made with love by Sagar Raj</h2>
         </div>
         <div class="nav-right-logo">
             <ul class="footer-logo-list">
@@ -65,8 +73,9 @@
             </ul>
         </div>
         <div class="last-line-footer">
-        <small><b>@2022 U&I Designer</b></small>
+            <small><b>@2022 U&I Designer</b></small>
         </div>
-    </div>
+    </footer>
 </body>
+
 </html>
