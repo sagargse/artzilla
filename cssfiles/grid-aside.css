@@ -20,9 +20,3 @@
     font-size: 1.5rem;
     font-weight: 500;
 }
-.left-aside-bar{
-    background-color:red;
-    overflow-y: auto;
-    overflow-x: hidden;
-    width: 15rem;
-}
