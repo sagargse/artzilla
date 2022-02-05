@@ -1,0 +1,34 @@
+@import "cssfiles/nav-bar.css";
+@import "cssfiles/middle-content.css";
+@import "cssfiles/footer.css";
+@import "cssfiles/doc.css";
+@import "cssfiles/grid-nav.css";
+@import "cssfiles/grid-aside.css";
+@import "cssfiles/all-components.css";
+@import "cssfiles/alerts.css";
+@import "cssfiles/avatar.css";
+@import "cssfiles/badge.css";
+@import "cssfiles/buttons.css";
+@import "cssfiles/inputs.css";
+@import "cssfiles/images.css";
+
+:root{
+    --primary:#d87093c7;
+    --secondary:#00ffff57;
+    --texts:#000000c5;
+    --btn-hover: palevioletred;
+    --primary-border:#d8709380;
+}
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--secondary);
+    color:var(--texts);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* color:rgba(216, 112, 147, 0.781); */
+}
+

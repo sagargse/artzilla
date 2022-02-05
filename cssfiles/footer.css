@@ -1,0 +1,28 @@
+.footer-container{
+    background-color: var(--texts);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary);
+    padding: 1rem;
+}
+.first-line-footer{
+    display:inline;
+    /* border:1px solid red; */
+}
+.last-line-footer{
+    /* border:1px solid red;  */
+    margin-right: 3rem;
+}
+
+.footer-logo-list{
+    /* border:1px solid red; */
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    padding-right: 3rem;
+    
+}
