@@ -1,0 +1,42 @@
+.alert-box{
+    padding: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+.alert-icon{
+    margin-right: 0.6rem;
+}
+
+.success-alert{
+    background-color: rgba(50, 205, 50, 0.685);
+    color:green;
+}
+.danger-alert{
+    background-color: rgba(255, 0, 0, 0.486);
+    color: red;
+}
+.warning-alert{
+    background-color: rgba(255, 255, 0, 0.384);
+    color: orange;
+}
+.primary-alert{
+    background-color: rgba(105, 90, 205, 0.623);
+    color: rgba(0, 0, 255, 0.582);
+}
+.secondary-alert{
+    background-color: rgba(112, 128, 144, 0.459);
+    color: rgba(0, 0, 0, 0.473);
+}
+.btn-close{
+    border: 1px solid black;
+    float: right;
+    font-size: 1.2rem;
+    border:none;
+    cursor: pointer;   
+}
+.danger-alert>button{
+    background-color: rgba(255, 0, 0, 0);
+    color: red;
+}
