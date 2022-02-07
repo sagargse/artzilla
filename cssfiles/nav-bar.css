@@ -1,18 +1,20 @@
-.nav-bar-container{
+.nav {
+    height: 5rem;
     display: flex;
     justify-content: space-between;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
-.nav-left-logo{
-    margin:0.2rem;
-    padding-left: 1.2rem;
+
+.logo {
+    margin-left: 2rem;
 }
-.nav-right-logo{
-    margin:0.2rem;
-    padding-right: 2rem;
-}
-.nav-logo-list{
+.nav-social-icons{
+    margin-right: 2rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 2rem;
-    font-size: 1.5rem;
-    list-style: none;
+}
+.social-icon i{
+    font-size: 2rem;
 }
