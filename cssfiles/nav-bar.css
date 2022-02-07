@@ -4,7 +4,9 @@
     justify-content: space-between;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
-
+.logo>h1{
+    color:var(--primary);
+}
 .logo {
     margin-left: 2rem;
 }
