@@ -1,0 +1,17 @@
+.input-table{
+    font-size: 1.5rem;
+}
+.input-rows>td{
+    padding: 1rem;
+}
+td>input{
+    font-size: 1.5rem;
+}
+.color-picker{
+    background-color: var(--primary);
+    border: none;
+
+}
+.color-picker:hover{
+    background-color: var(--btn-hover);
+}
