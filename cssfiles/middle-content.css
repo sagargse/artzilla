@@ -2,7 +2,7 @@
     display: flex;
     gap:8rem;
     padding-bottom: 5rem;
-    min-height: 70vh;
+    min-height: 40vh;
 }
 .left-content-container{
     text-align: justify;
@@ -34,21 +34,20 @@
     font-size: 1rem;
     cursor: pointer;
 }
-.btn-content-container-installation>a{
-    text-decoration: none;
+.installation{
     color:var(--primary);
 }
-.btn-content-container-installation>a:hover{
-    /* background-color: var(--btn-hover); */
-    color:white;
-}
-.btn-content-container-documentation{
-    background-color: var(--primary);
-    color:white;
-}
-.btn-content-container-documentation:hover{
+.installation:hover{
     background-color: var(--btn-hover);
-    color:white;
+    color:var(--white-color);
+}
+.documentation{
+    background-color: var(--primary);
+    color:var(--white-color);
+}
+.documentation:hover{
+    background-color: var(--btn-hover);
+    color:var(--white-color);
 }
 .second-content-container{
     display:flex;
