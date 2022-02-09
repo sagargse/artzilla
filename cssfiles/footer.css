@@ -6,23 +6,22 @@
     align-items: center;
     color: var(--secondary);
     padding: 1rem;
+    width: 100vw;
+    height: auto;
 }
-.first-line-footer{
-    display:inline;
-    /* border:1px solid red; */
+.nav-right-logo>a{
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: var(--secondary);
 }
 .last-line-footer{
-    /* border:1px solid red;  */
-    margin-right: 3rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
 }
-
-.footer-logo-list{
-    /* border:1px solid red; */
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    font-size: 1.5rem;
-    display: flex;
-    padding-right: 3rem;
-    
+.nav-right-logo>a:hover{
+    color: var(--btn-hover);
+}
+.fa-code{
+    font-weight: bold;
+    color: var(--primary);
 }

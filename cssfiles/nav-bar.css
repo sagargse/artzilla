@@ -2,11 +2,14 @@
     height: 5rem;
     display: flex;
     justify-content: space-between;
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    box-shadow: 0.2rem 0.2rem 0.5rem 0.1rem var(--primary);
+    width:100vw;
 }
 
 .logo {
     margin-left: 2rem;
+    color:var(--primary);
+    font-size: large;
 }
 .nav-social-icons{
     margin-right: 2rem;
@@ -15,6 +18,12 @@
     align-items: center;
     gap: 2rem;
 }
+.nav-social-icons>a{
+    color: var(--texts);
+}
 .social-icon i{
     font-size: 2rem;
+}
+.nav-social-icons>a:hover{
+    color: var(--primary);
 }
