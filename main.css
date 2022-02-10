@@ -22,13 +22,9 @@
     --secondary-alert:#70809075;
     --light-gray:#00000079;
     --lightish:#ff000000;
-<<<<<<< HEAD
+    --dark-gray-color:#d3d3d3ee;
     --gray-color:#d3d3d3ee;
-=======
-    --card-color:#d3d3d3ee;
     --dark-red:#ff0000f1;
-    --gray-color:gray;
->>>>>>> 35d1ead991b74f3bd4f7f3563bca373d22ff0ad1
 }
 html{
     font-size: 100%;
