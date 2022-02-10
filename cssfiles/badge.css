@@ -7,6 +7,29 @@
     position: relative;
     margin:1rem;
 }
+.badge{
+    padding: 8px;
+}
+.big-badge{
+    width: 15rem;
+    height: 15rem;
+    font-size: 7rem;
+}
+.md-badge{
+    width: 12rem;
+    height: 12rem;
+    font-size: 5rem;
+}
+.sm-badge{
+    width: 9rem;
+    height: 9rem;
+    font-size: 3rem;
+}
+.exsm-badge{
+    width: 6rem;
+    height: 6rem;
+    font-size: 2rem;
+}
 .badge-status{
     border-radius: 50%;
     position: absolute;
@@ -41,8 +64,8 @@
     background-color: var(--gray-color);
     right:1em;
     bottom: 1em;
-    height:0.8rem;
-    min-width: 0.8rem;
+    height:13px;
+    min-width: 13px;
 }
 .big-size-badge{
     font-size: 3rem;
@@ -51,16 +74,16 @@
     background-color: var(--dark-red);
     font-size:1.2rem;
     color:var(--white-color);
-    left:1.4em;
-    bottom: 1.8em;
+    left:1.6em;
+    bottom: 2.2em;
     height:0.8em;
     min-width: 0.8em;
 }
 .status-user{
     background-color: var(--green-color);
     font-size:1.5rem;
-    left:1.4em;
-    bottom: 1.6em;
+    left:1.6em;
+    bottom: 2em;
     height:0.5em;
     min-width: 0.5em;
 }
