@@ -1,6 +1,8 @@
 .grid-all-container{
     display: grid;
+    /* height: 100vh; */
     width: 100%;
+    grid-template-columns: 1fr;
     grid-template-areas:
     "header header header header"
     "aside main main main"
