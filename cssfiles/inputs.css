@@ -1,0 +1,9 @@
+.input-table{
+    font-size: 1.5rem;
+}
+.input-rows>td{
+    padding: 1rem;
+}
+td>input{
+    font-size: 1.5rem;
+}
