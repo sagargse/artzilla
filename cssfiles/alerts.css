@@ -1,0 +1,43 @@
+.alert-box{
+    padding: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+.alert-icon{
+    margin-right: 0.6rem;
+}
+.success-alert{
+    background-color: var(--success-color);
+    color:var(--green-color);
+}
+.danger-alert{
+    background-color: var(--danger-color);
+    color: var(--red-color);
+}
+.warning-alert{
+    background-color: var(--warning-color);
+    color: var(--orange-color);
+}
+.primary-alert{
+    background-color: var(--primary-alert);
+    color: var(--blue-color);
+}
+.secondary-alert{
+    background-color: var(--secondary-alert);
+    color: var(--light-gray);
+}
+.btn-close{
+    float: right;
+    font-size: 1.2rem;
+    border:none;
+    cursor: pointer;   
+}
+.danger-alert>button{
+    background-color: var(--lightish);
+    color: var(--red-color);
+}
+.description>span{
+    color:var(--red-color);
+}
