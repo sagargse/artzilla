@@ -1,6 +1,6 @@
 .grid-all-container{
     display: grid;
-    width: 100%;
+    max-width: 100%;
     grid-template-areas:
     "header header header header"
     "aside main main main"
@@ -8,7 +8,7 @@
     "aside main main main"
     "footer footer footer footer"
 } 
-.nav{
+.navbar{
     grid-area: header;
 }
 .left-aside-bar{
@@ -17,8 +17,9 @@
     overflow: auto;
     width: 15rem;
 }
-main{
+.middle-section-bar{
     grid-area: main;
+    max-width: 100%;
 }
 .bottom-footer-bar{
     grid-area: footer;

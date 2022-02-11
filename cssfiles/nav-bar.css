@@ -1,11 +1,11 @@
-.nav {
+.navbar{
     height: 5rem;
     display: flex;
     justify-content: space-between;
     box-shadow: 0.2rem 0.2rem 0.5rem 0.1rem var(--primary);
-    width:100vw;
+    max-width:100%;
+    overflow-x: hidden;
 }
-
 .logo {
     margin-left: 2rem;
     color:var(--primary);
@@ -18,12 +18,25 @@
     align-items: center;
     gap: 2rem;
 }
+.nav-social-icons-1{
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
 .nav-social-icons>a{
+    color: var(--texts);
+}
+.nav-social-icons-1>a{
     color: var(--texts);
 }
 .social-icon i{
     font-size: 2rem;
 }
 .nav-social-icons>a:hover{
+    color: var(--primary);
+}
+.nav-social-icons-1>a:hover{
     color: var(--primary);
 }
