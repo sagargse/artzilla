@@ -4,17 +4,15 @@
 }
 .aside-title{
     padding-left:2.25rem;
-    /* border: 1px solid black; */
 }
 .aside-all-list-items{
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     gap:2rem;
     list-style: none;
+    overflow-y: scroll;
 }
 .aside-list-item>a{
-    /* border: 1px solid black; */
     text-decoration: none;
     color: var(--texts);
     font-size: 1.5rem;
