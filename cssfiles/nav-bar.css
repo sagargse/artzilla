@@ -12,14 +12,7 @@
     font-size: large;
 }
 .nav-social-icons{
-    margin-right: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-}
-.nav-social-icons-1{
-    margin-right: 5rem;
+    margin-right: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,15 +21,9 @@
 .nav-social-icons>a{
     color: var(--texts);
 }
-.nav-social-icons-1>a{
-    color: var(--texts);
-}
 .social-icon i{
     font-size: 2rem;
 }
 .nav-social-icons>a:hover{
-    color: var(--primary);
-}
-.nav-social-icons-1>a:hover{
     color: var(--primary);
 }
