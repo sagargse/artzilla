@@ -1,0 +1,22 @@
+:root{
+    --primary:#d87093c7;
+    --secondary:#00ffff57;
+    --texts:#000000c5;
+    --btn-hover: palevioletred;
+    --primary-border:#d8709380;
+    --white-color:#ffffffde;
+    --success-color:#32cd32af;
+    --green-color:green;
+    --danger-color:#ff00007c;
+    --red-color:#ff00007c;
+    --warning-color:#ffff0062;
+    --orange-color:orange;
+    --primary-alert:#695acd9f;
+    --blue-color:#0000ff94;
+    --secondary-alert:#70809075;
+    --light-gray:#00000079;
+    --lightish:#ff000000;
+    --dark-gray-color:#d3d3d3ee;
+    --gray-color:#d3d3d3ee;
+    --dark-red:#ff0000f1;
+}
