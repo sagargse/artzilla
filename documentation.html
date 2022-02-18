@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="cssfiles/artzilla-u&i.css">
     <title>Artzilla U&I | Docs.</title>
 </head>
+
 <body>
     <div class="grid-all-container">
         <nav class="navbar">
@@ -56,6 +58,9 @@
                     </li>
                     <li class="aside-list-item">
                         <a onclick="location.href='#typography'">Typography</a>
+                    </li>
+                    <li class="aside-list-item">
+                        <a onclick="location.href='#slider'">Slider</a>
                     </li>
                 </ul>
             </div>
@@ -472,6 +477,29 @@
                         </iframe>
                     </div>
                 </div>
+                <div id="slider">
+                    <div class="components-intro">
+                        <h1>Slider</h1>
+                        <p>Sliders are used to decide range for something like sound in videos, price in shopping sites,
+                            etc.</p>
+                    </div>
+                    <div class="components-desc">
+                        <div class="slider-body-container">
+                            <div class="sort-by-ratings">
+                                <span>1</span>
+                                <span>2</span>
+                                <span>3</span>
+                                <span>4</span>
+                                <span>5</span>
+                            </div>
+                            <input type="range" min="1" max="100" value="20" class="slider" id="myRange">
+                        </div>
+                    </div>
+                    <div class="components-code">
+                        <iframe class="code-window" src="https://carbon.now.sh/embed/2AGO1IdSYZR6soS5kow9">
+                        </iframe>
+                    </div>
+                </div>
             </section>
         </main>
         <footer class="bottom-footer-bar">
@@ -493,4 +521,5 @@
     </div>
     <script src="js files/components.js"></script>
 </body>
+
 </html>

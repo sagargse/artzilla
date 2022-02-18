@@ -1,0 +1,33 @@
+.slider-body-container{
+    display: flex;
+    flex-direction: column;
+    width:30vw;
+    margin: 1rem 2rem;
+    gap: 1rem;
+}
+.sort-by-ratings{
+    display: flex;
+    justify-content:space-between;
+    font-size: 2rem;
+    font-weight: bold;
+    padding:0.5rem;
+}
+.slider{
+    margin-top: 1rem;
+    width: 100%;
+    height: 2rem;
+    border-radius: 1rem;
+    outline: none;
+    fill: var(--primary);
+    -webkit-appearance: none;
+    opacity: 0.8;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background: var(--primary);
+    cursor: pointer;
+}
