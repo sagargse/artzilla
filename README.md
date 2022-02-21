@@ -47,7 +47,7 @@ Copy the below link to get started with Artzilla U&I component. All you need to 
 1. [Typography](https://artzilla-ui.netlify.app/documentation.html#typography)
 1. [Slider](https://artzilla-ui.netlify.app/documentation.html#slider)
 
-##Overlooks
+## Overlooks
 
 
 
