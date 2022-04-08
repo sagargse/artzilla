@@ -71,3 +71,19 @@
 .btn-outofstock{
     pointer-events: none;
 }
+.card-badge{
+    position: absolute;
+    background-color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: bold;
+    top:0;
+    left: 0;
+}
+.card-dismiss-icon{
+    position: absolute;
+    background-color: var(--dark-gray-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    right: 0;
+    top:0;
+}
