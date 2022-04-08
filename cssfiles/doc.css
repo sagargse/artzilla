@@ -24,10 +24,8 @@
 }
 .middle-section-bar{
     grid-area: main;
-    /* max-width: 70vw; */
     position:relative;
 }
 .bottom-footer-bar{
     grid-area: footer;
-    /* max-width: 100vw; */
 }
